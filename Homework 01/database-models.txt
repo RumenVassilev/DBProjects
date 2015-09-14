@@ -1,0 +1,11 @@
+There are 4 types of database models:
+1. Hierarchical (tree)
+2. Network / graph
+3. Relational (tables)
+4. Object-oriented
+
+The most common model is the relational, but I'm going to write a few lines for the hierarchical.
+It is organized into a tree- like structure. There are links between the records and if you want to picture it better
+see the Windows file system, it is a great example of tree-like structure. Each record can have just one parent and each rocord 
+can have one or more child records. It needs to be traversed starting from the root. It is the first database model
+created by IBM in the 60's.

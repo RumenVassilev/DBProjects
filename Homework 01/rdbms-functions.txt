@@ -1,0 +1,9 @@
+RDBMS or relational database management system is offent prefered for storage of financial records, manufacturing information, 
+personnel data for more than 30 years. It is based on the relational model and the main players in this kind information storing are:
+1. Oracel Databases
+2. MySQL
+3. Microsoft SQL Server
+4. IBM DB2
+5. IBM Infomix
+6. SAP Sybase adaptive Server Enterprise
+an others.

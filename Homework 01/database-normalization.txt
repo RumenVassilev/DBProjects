@@ -1,0 +1,8 @@
+Database scheme normalization is a procces of organizing the attributes and tables of a relational database
+to minmize data redundancy. It is bassicaly decomposing a table into smaller tables to avoid and minimize
+redundancy. The easiest way is by defining foregn keys in the old table referencing the primary keys
+of the new ones.
+
+Normalized tables are smaller which makes them easier to worik with and the updates are fast and accurate.
+However there are some issues with normalized tables. The main one is that connections (joins) between tables
+are causing read operations to suffer because indexing strategies don't go well with table joins.

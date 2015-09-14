@@ -1,0 +1,6 @@
+Database tables consists of data, arranged in rows and (fields) columns, where all rows have the same
+structure and columns have name and type.
+Table is another term for relation; although there is the difference in that a table is 
+usually a multiset (bag) of rows where a relation is a set and does not allow duplicates. 
+Besides the actual data rows, tables generally have associated with them some metadata, 
+such as constraints on the table or on the values within particular columns

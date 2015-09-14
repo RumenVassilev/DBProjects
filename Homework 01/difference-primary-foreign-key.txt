@@ -1,0 +1,16 @@
+A primary key is a column or group of columns that uniquely identify a row. 
+Every table should have a primary key. And a table cannot have more than one primary key. 
+The PRIMARY KEY characteristic can be specified as part of a column definition, as in the first column of the 
+Country table, or it can be specified as a separate clause of the CREATE TABLE statement, 
+as in the statement that creates the Job table. The primary key in the Job table is made up of three columns:
+job_code, job_grade, and job_country. While a value can appear more than once in any of these columns 
+taken individually, the fact that they are collectively a primary key means that the three values taken 
+together cannot occur in more than one row.
+
+A foreign key is a column or set of columns in one table whose values must have matching values in the 
+primary key of another (or the same) table. A foreign key is said to reference its primary key. 
+Foreign keys are a mechanism for maintaining data integrity. In the Job table, for example, any country listed 
+in the job_country column must also exist in the Country table. 
+
+Bassicaly foreign key is used to avoid any repeated data. If you change a country name from Bulgaria to Serbia,
+thanks to usage of foreign key, it will change where ever you have used the primary key of Bulgaria.

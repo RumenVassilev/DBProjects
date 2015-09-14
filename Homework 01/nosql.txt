@@ -1,0 +1,18 @@
+NoSQL (non-relational) databases
+Use document-based model (non-relational)
+Schema-free document storage
+Still support CRUD operations (create, read, update, delete)
+Still support indexing and querying
+Still supports concurrency  and transactions
+Highly optimized for append / retrieve
+Great performance and scalability
+NoSQL == “No SQL” or “Not Only SQL”?
+Relational databases
+Data stored as table rows
+Relationships between related rows
+Single entity spans multiple tables
+RDBMS systems are very mature, rock solid
+NoSQL databases
+Data stored as documents
+Single entity (document) is a single record
+Documents do not have a fixed structure

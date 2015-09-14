@@ -1,0 +1,11 @@
+SQL or Structured Query Language is a standardized declarative language for manipulation of 
+relational databases. Currently SQL 2011 is used in most databases.
+SQL language supports:
+DDL: Creating, altering, deleting tables and other DB objects
+DML: searching, retrieving, inserting, modifying and deleting table data (data rows)
+SQL consists of:
+DDL – Data Definition Language
+CREATE, ALTER, DROP commands
+DML – Data Manipulation Language
+SELECT, INSERT, UPDATE, DELETE commands
+
